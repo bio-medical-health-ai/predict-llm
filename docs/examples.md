@@ -1,11 +1,11 @@
 # Examples
 
-## foobar
+## predict_llm
 
-foobar can be used as follows.
+predict_llm can be used as follows.
 
 ```python
-from foobar import foo
+from predict_llm import foo
 
 foo.bar([1, 2, 3])
 # output: 6

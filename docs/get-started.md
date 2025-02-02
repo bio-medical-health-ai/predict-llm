@@ -1,19 +1,19 @@
 # Quick Start
 
-foobar brief description.
+predict_llm brief description.
 
 ## Overview
 
-foobar detailed overview.
+predict_llm detailed overview.
 
 ## Installation
 
 ```bash
-$ pip install foobar
+$ pip install predict_llm
 ```
 
 Documentation on installing for local development is provided in [Contributing](contributing/index.md).
 
 ## Usage
 
-foobar usage example.
+predict_llm usage example.

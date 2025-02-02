@@ -3,13 +3,13 @@ requires = ["setuptools>=64.0", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "foobar"
+name = "predict_llm"
 version = "0.1.0"
 authors = [
-    {name = "foobar author"},
-    {email = "foobar@foobar.com"},
+    {name = "Zilinghan Li"},
+    {email = "zilinghan.li@anl.gov"},
 ]
-description = "Foobar example package."
+description = "predict_llm example package."
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
@@ -24,9 +24,9 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://github.com/foobar-author/foobar"
-documentation = "https://foobar.readthedocs.io"
-repository = "https://github.com/foobar-author/foobar"
+homepage = "https://github.com/Zilinghan/predict-llm"
+documentation = "https://predict_llm.readthedocs.io"
+repository = "https://github.com/Zilinghan/predict-llm"
 
 [project.optional-dependencies]
 dev = [
@@ -148,7 +148,7 @@ multiline-quotes = "single"
 
 [tool.ruff.lint.isort]
 force-single-line = true
-known-first-party = ["foobar", "test", "testing"]
+known-first-party = ["predict_llm", "test", "testing"]
 order-by-type = false
 required-imports = ["from __future__ import annotations"]
 

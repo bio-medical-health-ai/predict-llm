@@ -1,10 +1,13 @@
 cff-version: 1.2.0
 message: If you use this software, please cite it as below.
 authors:
-  - family-names: Pauloski
-    given-names: Greg
-    orcid: https://orcid.org/0000-0002-6547-6902
+  - family-names: Li
+    given-names: Zilinghan
+  - family-names: Singhal
+    given-names: Pankhuri
+  - family-names: Yang
+    given-names: Ze
 license: MIT
-repository-code: https://github.com/foobar-author/foobar
-title: FooBar
-url: https://foobar.dev
+repository-code: https://github.com/Zilinghan/predict-llm
+title: predict_llm
+url: https://predict_llm.dev
