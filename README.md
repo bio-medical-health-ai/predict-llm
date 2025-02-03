@@ -19,6 +19,8 @@ This package setup was based on [Anthony Sottile's project setup](https://www.yo
 conda create -n predict_llm python=3.10 --y
 conda activate predict_llm
 pip install -e ".[dev]"
+pre-commit install
+pre-commit run --all-files
 ```
 
 ## Setup Instructions
