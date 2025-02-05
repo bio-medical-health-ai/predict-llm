@@ -22,6 +22,8 @@ classifiers = [
 dependencies = [
     "requests",
     "torch",
+    "magic-pdf[full] @ https://wheels.myhloli.com/simple",
+    "huggingface_hub"
 ]
 
 [project.urls]

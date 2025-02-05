@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 
+from predict_llm.data import initialize
 from predict_llm.data import pdf_parser
 
 argparser = argparse.ArgumentParser()
@@ -18,5 +19,8 @@ argparser.add_argument(
 )
 
 args = argparser.parse_args()
+
+# Initialize MinerU dependencies
+initialize()
 
 pdf_parser()
