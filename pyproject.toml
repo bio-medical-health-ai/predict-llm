@@ -23,6 +23,16 @@ dependencies = [
     "requests",
     "torch",
     "magic-pdf[full] @ https://wheels.myhloli.com/simple",
+    "huggingface_hub",
+    "pyserini==0.22.1",
+    "tiktoken==0.6.0",
+    "faiss-cpu==1.7.4",
+    "python-liquid==1.10.2",
+    "chonkie[all]",
+    "tqdm==4.66.1",
+    "transformers==4.44.2",
+    "sentence_transformers==2.2.2",
+    "pyserini==0.22.1",
     "huggingface_hub"
 ]
 
@@ -140,7 +150,10 @@ select = [
     # ruff-specific
     "RUF",
 ]
-extend-ignore = []
+extend-ignore = [
+    "COM812",  # Trailing comma missing
+    "Q001",    # Multiline quotes conflict
+]
 
 [tool.ruff.lint.flake8-pytest-style]
 parametrize-values-type = "tuple"
